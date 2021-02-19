@@ -23,7 +23,7 @@ body {
 .HideClass {
 	display: none !important;
 }
-
+/* 
 @media screen and (max-width: 998px) {
 	html {
 		font-size: 55%;
@@ -52,7 +52,7 @@ body {
 	html {
 		font-size: 40%;
 	}
-}
+} */
 
 /* =========== SCROLL TO TOP BTN START ============= */
 .back-to-top .top {
@@ -503,13 +503,8 @@ body {
 
 /* ==================== HOME PAGE STYLING START ======================== */
 .HomeContainer {
-	margin-top: 25rem;
+	margin-top: 22rem;
 	color: var(--SubThemeC);
-}
-
-/* JUST TO REMOVE PADDING FROM LEFT */
-.LeftSideHContainer {
-	padding-left: 0rem !important;
 }
 
 .HomeInnerContainer {
@@ -520,7 +515,7 @@ body {
 }
 
 .HLeftSideText {
-	font-size: 4.8rem;
+	font-size: 5.5rem;
 }
 
 .HLeftSideBelowPara {
@@ -563,10 +558,10 @@ body {
 }
 
 /* == HOME RIGHT SIDE IMAGE == */
-.HRightSideImg {
-	position: absolute;
-	margin-top: -0.5rem;
-	height: 51rem;
+.HRightSideImg img {
+	/* position: absolute; */
+	/* margin-top: -0.5rem; */
+	height: 42rem;
 	width: auto;
 	user-select: none;
 	-webkit-animation: HRightSideImg 3.5s ease-in-out infinite alternate-reverse;
@@ -579,8 +574,8 @@ body {
 		transform: translateY(0px);
 	}
 	100% {
-		-webkit-transform: translateY(6px);
-		transform: translateY(6px);
+		-webkit-transform: translateY(15px);
+		transform: translateY(15px);
 	}
 }
 @keyframes HRightSideImg {
@@ -589,8 +584,8 @@ body {
 		transform: translateY(0px);
 	}
 	100% {
-		-webkit-transform: translateY(6px);
-		transform: translateY(6px);
+		-webkit-transform: translateY(15px);
+		transform: translateY(15px);
 	}
 }
 
@@ -774,12 +769,12 @@ body {
 /* SHAPE 1 */
 .HShape1Container {
 	position: absolute;
-	margin-top: -10rem;
-	left: -15%;
+	left: -6%;
+	margin-top: -5%;
 }
 
 .HShape1Container img {
-	height: 24rem;
+	height: 20rem;
 	width: auto;
 	-webkit-animation: HShape1 3.5s ease-in-out infinite alternate-reverse;
 	animation: HShape1 3.5s ease-in-out infinite alternate-reverse;
@@ -810,7 +805,7 @@ body {
 .HShape2Container {
 	position: absolute;
 	right: 20%;
-	margin-top: 30rem;
+	top: 64%;
 	z-index: 10000;
 }
 
@@ -864,7 +859,7 @@ body {
 	width: auto;
 }
 
-/* SHAPE 4 */
+/* SHAPE 5 */
 .HShape5Container {
 	position: absolute;
 	margin-top: -16rem;
