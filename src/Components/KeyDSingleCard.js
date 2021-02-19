@@ -28,7 +28,7 @@ const KeyDSingleCard = ({
 				</div>
 				<div className="icon-box-content">
 					<h5 className="icon-box-title">
-						<a href="#">{Heading}</a>
+						<a href="upperNavbar">{Heading}</a>
 					</h5>
 					<p className="icon-box-desc">
 						It is a long established fact that a reader will be distracted by

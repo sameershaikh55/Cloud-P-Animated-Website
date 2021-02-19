@@ -56,7 +56,10 @@ const Contact = () => {
 						>
 							<div className="ContactUSContainer">
 								<div className="mapContainer">
-									<iframe src="https://www.google.com/maps?q=Karachi%2C%20Pakistan&z=17&t=&ie=UTF8&output=embed"></iframe>
+									<iframe
+										src="https://www.google.com/maps?q=Karachi%2C%20Pakistan&z=17&t=&ie=UTF8&output=embed"
+										title="Map"
+									/>
 								</div>
 							</div>
 						</div>

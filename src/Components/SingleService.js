@@ -25,7 +25,7 @@ const SingleService = ({ Heading, Logo }) => {
 				>
 					<Logo className="ServicesIcons" />
 					<h3>
-						<a href="#">{Heading}</a>
+						<a href="upperNavbar">{Heading}</a>
 					</h3>
 				</div>
 				<p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="320">
@@ -36,7 +36,7 @@ const SingleService = ({ Heading, Logo }) => {
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-offset="330"
-					href="h"
+					href="upperNavbar"
 					className="SSReadMoreBtn"
 				>
 					Read More

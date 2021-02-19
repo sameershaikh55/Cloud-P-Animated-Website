@@ -45,7 +45,7 @@ const Home = () => {
 											alt=""
 										/>
 									</div>
-									<a href="btn">Start a Free Trail</a>
+									<a href="upperNavbar">Start a Free Trail</a>
 								</div>
 							</Link>
 							<div className="HIconsContainer">

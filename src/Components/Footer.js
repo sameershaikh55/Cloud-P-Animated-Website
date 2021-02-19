@@ -109,7 +109,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Home
 												</a>
@@ -119,7 +119,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													About Us
 												</a>
@@ -129,7 +129,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Service
 												</a>
@@ -139,7 +139,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Blog
 												</a>
@@ -149,7 +149,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Contact Us
 												</a>
@@ -180,7 +180,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													About Us
 												</a>
@@ -190,7 +190,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Service
 												</a>
@@ -200,7 +200,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Contact Us
 												</a>
@@ -210,7 +210,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Pricing Plan
 												</a>
@@ -220,7 +220,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Clients
 												</a>
@@ -251,7 +251,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Our Team
 												</a>
@@ -261,7 +261,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Pricing Plan
 												</a>
@@ -271,7 +271,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													FAQ
 												</a>
@@ -281,7 +281,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Clients
 												</a>
@@ -291,7 +291,7 @@ const Footer = () => {
 												data-aos-duration="1200"
 												data-aos-offset="120"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<AiFillCaretLeft className="FooterListIcons" />
 													Contact Us
 												</a>
@@ -323,7 +323,7 @@ const Footer = () => {
 													data-aos-duration="1200"
 													data-aos-offset="120"
 												>
-													<a>
+													<a href="upperNavbar">
 														<FaHome
 															style={{ marginBottom: "0.6rem" }}
 															className="FooterAddressIcon FooterListIcons"
@@ -376,7 +376,7 @@ const Footer = () => {
 												data-aos-offset="5"
 												className="d-inline"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<FaTwitter className="SocialMediaIcons" />
 												</a>
 											</li>
@@ -386,7 +386,7 @@ const Footer = () => {
 												data-aos-offset="5"
 												className="d-inline"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<GrFacebook className="SocialMediaIcons" />
 												</a>
 											</li>
@@ -396,7 +396,7 @@ const Footer = () => {
 												data-aos-offset="5"
 												className="d-inline"
 											>
-												<a href="">
+												<a href="upperNavbar">
 													<SiLinkedin className="SocialMediaIcons" />
 												</a>
 											</li>
