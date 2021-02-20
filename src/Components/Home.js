@@ -17,7 +17,7 @@ import shape4 from "../Images/BgCloud1.png";
 
 const Home = () => {
 	return (
-		<div className="HomeContainer container">
+		<div id="home" className="HomeContainer container">
 			<div className="HShape3Container">
 				<img src={shape4} alt="#" />
 			</div>

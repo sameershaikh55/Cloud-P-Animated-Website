@@ -1,4 +1,7 @@
 import React from "react";
+
+// import SideBar from "./SideBar";
+
 // import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
@@ -19,12 +22,8 @@ const Navbar = ({ ClickEvent }) => {
 						<Link to="upperNavbar" smooth={true} duration={600}>
 							<h1>Cloudy</h1>
 						</Link>
-						<div className="NavbarToggleBtn">
-							<button
-								onClick={ClickEvent}
-								className="navbar-toggler collapsed"
-								type="button"
-							>
+						<div onClick={ClickEvent} className="NavbarToggleBtn">
+							<button className="navbar-toggler collapsed" type="button">
 								<span className="menu-btn d-inline-block" id="menu-btn">
 									<span className="line"></span>
 									<span className="line"></span>

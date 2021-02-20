@@ -43,12 +43,13 @@ function AllPages() {
 
 	const [isOpen, setIsOpen] = useState(false);
 
-	const ToggleClickEvent = () => {
-		setIsOpen(true);
+	const OnClick = () => {
+		setIsOpen(!isOpen);
 	};
 
 	return (
 		<div className="PagesContainer">
+			<SideBar ClickEvent={OnClick} isOpen={isOpen} />
 			<div
 				data-aos="fade-right"
 				data-aos-duration="1000"
@@ -67,9 +68,8 @@ function AllPages() {
 			</div>
 			<img src={BgImg} alt="Cloud_Computing" className="BgSVG" />
 			<div className="InnerAllPContainer">
-				<UpperBar ClickEvent={ToggleClickEvent} />
-				<Navbar />
-				{isOpen ? <SideBar /> : <SideBar HideClass={"HideClass"} />}
+				<UpperBar />
+				<Navbar ClickEvent={OnClick} />
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
